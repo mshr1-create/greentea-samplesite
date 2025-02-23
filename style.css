@@ -1,0 +1,94 @@
+/* 画面全体の余白をリセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-outer {
+  background: url('images/topPage_teaplantation.jpeg') no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
+
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;;
+}
+
+/* ナビゲーション */
+.nav-list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;;
+}
+
+/* メインイメージ部分 */
+.main-image ul {
+  list-style: none;
+  display: flex;
+  gap:  10px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 800px;
+  margin: 40px auto;
+}
+
+.main-image ul li {
+  position: relative;
+  width: 100%;
+}
+
+.main-image ul li p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;;
+}
+
+/* 画像のレスポンシブ対応 */
+.main-image ul li img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 全体のimg共通スタイル */
+img {
+  display: block;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
