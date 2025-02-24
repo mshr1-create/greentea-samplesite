@@ -45,6 +45,11 @@ html, body {
     margin: 0;
 }
 
+.product-header-inner h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* ナビゲーション */
 .product-nav-list ul{
     list-style: none;
@@ -73,11 +78,8 @@ main h2{
 }
 
 .purchase-link{
-    position: absolute;
-    top: 150px; left: 500px; right: 0; bottom: 0;
-    text-align: center;
-    margin-top: 20px;
-    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 15px;
 }
 
 .item-grid{
