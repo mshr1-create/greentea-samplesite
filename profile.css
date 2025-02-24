@@ -40,6 +40,11 @@
     margin: 0;
 }
 
+.profile-header-inner h1 a{
+  text-decoration: none;
+  color: #fff;
+}
+
   /* ナビゲーション */
   .profile-nav-list ul{
     list-style: none;
