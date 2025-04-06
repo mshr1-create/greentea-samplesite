@@ -1,0 +1,42 @@
+.product-header-outer {
+    padding: 20px 0;
+}
+
+.product-header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-header-inner h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;;
+    margin: 0;
+}
+
+.product-header-inner h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ナビゲーション */
+.product-nav-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.product-nav-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;;
+    font-size: 16px;
+}
